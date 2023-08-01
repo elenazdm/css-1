@@ -1,0 +1,124 @@
+:root {
+    background: white;
+  
+
+}
+* {
+    color:red;
+  }
+  h1 {
+    background: blue;
+  }
+  .green {
+    color: green;
+  }
+  #blue {
+    color: blue;
+  }
+  .box > p {
+    background: red;
+      }
+  .box > div {
+background: green;
+  }
+  .brown {
+    background: brown;
+    color: white;
+  }
+  ul > li {
+    background: red;
+  }
+  button.header-button + span { 
+    background: red;
+  }
+  p.susid + p  { 
+    background: blue;
+  }
+  .salo {
+    background: yellow
+  }
+   #bread {
+    background: yellow
+  }
+  .first-task  li:first-child {
+    color: white
+  }
+  .second-task  ul:first-child li:first-child {
+    color: yellow;
+  }
+  .third-task ul:last-child li:first-child {
+    background: yellow;
+  }
+  .four-task li:last-child {
+    background: yellow;
+  }
+  .five-task ul:last-child li:last-child {
+    color: white;
+  }
+  section div.only-child-task :only-child {
+    color: red;
+  }
+  div.seven-task p:first-of-type {
+    background: red;
+  }
+  div.eight-task p:last-of-type {
+    background: red;
+  }
+  div.nine-task div.text-wrapper p:only-of-type {
+    background: yellow;
+  }
+  a[href] {
+    color: white
+  }
+  .lesson-three-task-two li[value] {
+    color: yellow;
+  }
+  .lesson-three-task-three li[value] {
+    background: red;
+  }
+  .lesson-three-task-four button[class~="primary"] {
+    background: blue;
+  }
+  .lesson-three-task-five button[class|="secondary"] {
+    background: red;
+  }
+  .lesson-three-task-six li[class^="b"] {
+    background: white;
+    color: green;
+  }
+  .lesson-three-task-seven li[class*="on"] {
+    background: white;
+    color: green;
+  }
+  .lesson-three-task-eight span[class$="s"] {
+    background: white;
+    color: rgb(55, 26, 220);
+  }
+  .lesson-three-task-nine h2::first-letter {
+    
+    color: rgb(248, 32, 172);
+  }
+  .lesson-three-task-ten p::first-line {
+    
+    background: rgb(199, 226, 77);
+  }
+  .lesson-three-task-eleven input::placeholder {
+    
+    background: rgb(238, 99, 7);
+  }
+  .lesson-three-task-twelve li {
+    color: white;
+    
+  }
+  .lesson-three-task-twelve li::before {
+    color: white;
+    content: '➤';
+  }
+  .lesson-three-task-thirteen li {
+    color: white;
+    
+  }
+  .lesson-three-task-thirteen li::after {
+    color: white;
+    content: '➤';
+  }
